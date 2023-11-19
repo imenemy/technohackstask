@@ -4,7 +4,7 @@ import random
 # Getting password length
 length = int(input("Enter password length: "))
 
-characterList = string.ascii_letters + string.digits + string.punctuation
+characterList = string.ascii_lowercase + string.ascii_uppercase + string.digits + string.punctuation
  
 password = []
  
